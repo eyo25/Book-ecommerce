@@ -6,9 +6,9 @@ requierd:true,
 ref:'User'
     },
     orderItems:[{
-name:{type:string,requierd:true},
+name:{type:String,requierd:true},
 qty:{type:Number,requierd:true},
-image:{type:string,requierd:true},
+image:{type:String,requierd:true},
 price:{type:Number,requierd:true},
 product:{
     type:mongoose.Schema.Types.ObjectId,
